@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+}
+
+body {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 80%;
+    margin: 150px auto;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: hsla(0, 0%, 100%, 0.25);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.navbar .active {
+    color: #347095;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #347095;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #ddd;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color:#347095;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #347095;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    filter: brightness(0.9);
+}
+h1{
+    margin-bottom: 20px;
+}
+footer {
+    background: rgb(18,75,95);
+    background: -moz-linear-gradient(90deg, rgba(18,75,95,1) 0%, rgba(67,131,175,1) 35%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(18,75,95,1) 0%, rgba(67,131,175,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(18,75,95,1) 0%, rgba(67,131,175,1) 35%, rgba(0,212,255,1) 100%);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+}
+
+body {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 80%;
+    margin: 150px auto;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: hsla(0, 0%, 100%, 0.25);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.navbar .active {
+    color: #347095;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #347095;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #ddd;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color:#347095;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #347095;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    filter: brightness(0.9);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: rgb(18,75,95);
+    background: -moz-linear-gradient(90deg, rgba(18,75,95,1) 0%, rgba(67,131,175,1) 35%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(18,75,95,1) 0%, rgba(67,131,175,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(18,75,95,1) 0%, rgba(67,131,175,1) 35%, rgba(0,212,255,1) 100%);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.card a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #347095;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+.card a:hover {
+    background-color: #28597a;
+}
