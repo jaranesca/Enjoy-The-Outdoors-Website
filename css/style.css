@@ -63,6 +63,7 @@
     margin: 5px 7px;
     background: rgba(255, 255, 255, 0.5);
     display: block;
+    backface-visibility: visible; 
     -webkit-backface-visibility: visible;
     transition: opacity 200ms ease;
     border-radius: 50%;
@@ -168,21 +169,56 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.5); /* Optional: darken the background for better text readability */
+    background: rgba(0, 0, 0, 0.45);
     color: white;
     font-weight: 600;
     text-align: center;
 }
 
 .abtnature {
-    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px;
 }
 
 .abtxt {
-    margin: 0 auto; /* Centers the text horizontally within the div */
-    max-width: 1225px; /* Adjust the maximum width as needed */
+    margin: 0 auto; 
+    max-width: 1225px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .nature {
+        margin: 25px 50px; /* Reduce margins on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .nature {
+        margin: 25px 25px; /* Further reduce margins on even smaller screens */
+    }
+
+    .nature-content {
+        padding: 20px 15px; /* Adjust padding for better fit */
+    }
+
+    .abtxt {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .nature {
+        margin: 15px 15px; /* Minimal margins on the smallest screens */
+    }
+
+    .nature-content {
+        padding: 15px 10px; /* Further adjust padding */
+    }
+
+    .abtxt {
+        font-size: 12px; /* Further reduce font size */
+    }
 }
 
 .informational {
@@ -197,7 +233,7 @@
 }
 
 .popular-section {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .img-row {
@@ -232,8 +268,20 @@
     font-size: 16px;
     color: #333;
 }
+.img-item img {
+    max-width: 100%;
+    width: 292px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
 
-/* Footer styles */
+.img-item:hover img {
+    transform: scale(1.05); /* Scale up the image on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow on hover */
+}
+
 footer {
     background: rgb(18,75,95);
     background: -moz-linear-gradient(90deg, rgba(18,75,95,1) 0%, rgba(67,131,175,1) 35%, rgba(0,212,255,1) 100%);

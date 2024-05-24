@@ -12,7 +12,7 @@ body {
 
 .container {
     width: 80%;
-    margin: 150px auto;
+    margin: 25px auto;
 }
 
 .navbar {
@@ -32,10 +32,22 @@ body {
     font-weight: bold;
     margin-right: 50px;
 }
-
 .navbar .active {
-    color: #347095;
+    color: black;
 }
+
+ .image-container {
+    height: 25vh; 
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
 
 .mt-4 {
     margin-top: 1.5rem;
@@ -62,7 +74,7 @@ label {
     border: 2px solid #ddd;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -74,34 +86,36 @@ label {
 
 .card {
     display: flex;
+    flex-direction: column;
     margin-top: 20px;
-    border: none;
+    border: 2px solid #ddd;
     border-radius: .25rem;
     overflow: hidden;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    margin-bottom: 100px;
 }
 
 .card-img-top {
-    width: 500px;
-    height: 300px; /* Adjust this value as needed */
-    object-fit:cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .card-body {
     padding: 20px;
-    margin: 0; /* Reset margin */
+    margin: 0; 
 }
 
 .card-title {
     font-size: 1.5rem;
-    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px; 
 }
 
 .card-text {
     font-size: 1rem;
-    margin-bottom: 20px; /* Adjust margin as needed */
-    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -111,9 +125,8 @@ h1 {
 
 .para {
     margin-bottom: 15px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    
 }
 
 footer {
@@ -127,4 +140,18 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+    }
+    .card-img-top {
+        width: 50%;
+        height: 300px;
+    }
+    .card-body {
+        width: 50%;
+    }
 }
