@@ -131,6 +131,8 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 5s ease, color 5s ease;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .image-item button:hover {
@@ -142,7 +144,7 @@
     opacity: 1;
 }
 .nature {
-    background: url('bgimages/s4.jpg') no-repeat center center;
+    background: blue;
     background-size: cover;
     margin: 25px 102px;
     padding: 30px 25px 450px 25px;
@@ -152,7 +154,10 @@
     text-align: center;
 }
 
-
+.informational{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
 .abtnature {
     margin-bottom: 20px; /* Adjust margin as needed */
 }
@@ -160,6 +165,8 @@
 .abtxt {
     margin: 0 auto; /* Centers the text horizontally within the div */
     max-width: 1225px; /* Adjust the maximum width as needed */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 .popular-heading{
     text-align: center;

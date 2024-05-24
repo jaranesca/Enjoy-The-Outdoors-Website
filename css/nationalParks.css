@@ -62,6 +62,8 @@ label {
     border: 2px solid #ddd;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .form-control:focus {
@@ -81,11 +83,15 @@ label {
 .btn-primary {
     background-color: #347095;
     color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .btn-secondary {
     background-color: #6c757d;
     color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .btn-primary:hover, .btn-secondary:hover {

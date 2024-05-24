@@ -62,6 +62,8 @@ label {
     border: 2px solid #ddd;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .form-control:focus {
@@ -99,6 +101,8 @@ label {
 .card-text {
     font-size: 1rem;
     margin-bottom: 20px; /* Adjust margin as needed */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 h1 {
@@ -107,6 +111,9 @@ h1 {
 
 .para {
     margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
 }
 
 footer {

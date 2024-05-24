@@ -1,47 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Project Template</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>Mountain Information</title>
+    <link rel="stylesheet" href="css/mountains.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        <nav>
-            This is where you will add a navigation
-        </nav>
-
-        <select id="mountain">
-            <option>Mountain 1</option>
-            <option>Mountain 1</option>
-            <option>Mountain 1</option>
-            <option>Mountain 1</option>
-        </select>
-
-    </header>
-    <main>
-        <div id="app"></div>
-        <div id="locations"></div>
-        <div id="mountains"></div>
-
-        <div id=""></div>
-
-
-        <button onclick="loadData();">
-            click here
-        </button>
-
-    </main>
+    <nav class="navbar">
+        <div class="nav">
+            <a class="nav-item" href="index.html">Enjoy The Outdoors</a>
+            <a class="nav-item" href="nationalpark.html">National Parks</a>
+            <a class="nav-item active" href="mountains.html">Mountains</a>
+        </div>
+    </nav>
+    <div class="container">
+        <main class="mt-4">
+            <div class="info-container">
+                <h1>Mountain Information</h1>
+                <div class="form-group">
+                    <label for="mountainSelect">Select a Mountain</label>
+                    <select id="mountainSelect" class="form-control">
+                        <option value="">-- Select a Mountain --</option>
+                    </select>
+                </div>
+            </div>
+            <div id="mountainInfo" class="mt-4"></div>
+        </main>
+    </div>
     <footer>
+        <p>&copy; 2024 - Enjoy The Outdoors.</p>
     </footer>
     <script src="scripts/mountainData.js"></script>
-
     <script src="scripts/mountains.js"></script>
 </body>
-
 </html>
