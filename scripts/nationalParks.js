@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     let parkTypePlaceholder = document.createElement('option');
     parkTypePlaceholder.value = '';
-    parkTypePlaceholder.text = '-- Select a Park Type --';
+    parkTypePlaceholder.text = '-- Select a Park type --';
     parkTypePlaceholder.disabled = true;
     parkTypePlaceholder.selected = true;
     parkTypeSelect.appendChild(parkTypePlaceholder);
